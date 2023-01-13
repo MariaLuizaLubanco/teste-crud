@@ -18,8 +18,6 @@ import java.util.Optional;
 public class UsuarioController {
 
     @Autowired
-    private UsuarioRepository usuarioRepository;
-    @Autowired
     private UsuarioService usuarioService;
 
     @PostMapping
